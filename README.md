@@ -2,33 +2,33 @@
 
 Overview
 
-This project demonstrates my ability to work with relational databases using SQL to answer business questions. As part of a coursework brief, I was provided with a larger dataset and asked to write a range of SQL queries to extract meaningful insights. The focus of the project was on joining tables, selecting relevant fields, and structuring queries to return clear, usable results.
+This project demonstrates my ability to work with relational databases using SQL to answer business-focused questions. As part of a coursework brief, I was provided with a larger dataset and asked to write a range of SQL queries to extract meaningful information. The focus of the analysis was on joining tables, selecting relevant fields, and ordering results to produce clear and usable outputs.
 
 Dataset
 
-The dataset consists of a relational database containing multiple linked tables. In the example demonstrated, the database includes:
+The project uses a relational database structure containing multiple linked tables. In the example shown, the database includes:
 
-Customers table – containing customer details such as first name and last name
+Customers table – storing customer details such as first name and last name
 
-Orders table – containing transactional data such as order ID and items purchased
+Orders table – storing transactional information such as order ID and items purchased
 
-The dataset was provided as part of coursework and designed to reflect a realistic business database structure.
+The dataset was provided as part of coursework and designed to reflect a realistic business database scenario.
 
 Analysis Approach
 
-To answer the required business questions, I wrote SQL queries that combined data across tables using appropriate join logic. In this example, I used an INNER JOIN to link customer records with their corresponding orders through a shared customer_id. This enabled customer information to be merged with transactional data in a single result set.
+To complete the brief, I wrote SQL queries that combined data across tables using appropriate join logic. In this example, an INNER JOIN was used to link customer records with their corresponding orders through a shared customer_id. This approach allowed customer information and order details to be returned in a single, structured result set.
 
-The queries were structured to:
+The queries were designed to:
 
-Accurately join tables using primary and foreign keys
+Join tables accurately using primary and foreign keys
 
 Select only relevant fields required for analysis
 
-Order results for clarity and interpretability
+Order results to improve clarity and interpretability
 
 Example Output
 
-The resulting query output combines customer names with order details, demonstrating how relational data can be queried and structured to support analysis and reporting.
+The resulting output combines customer names with order details, demonstrating how SQL can be used to query relational databases effectively for analysis and reporting purposes.
 
 Skills Demonstrated
 
@@ -36,8 +36,8 @@ Writing SQL queries for relational databases
 
 Using INNER JOINs to combine related tables
 
-Selecting and ordering fields to answer business questions
+Selecting and ordering data to answer business questions
 
-Understanding database relationships and schema design
+Understanding database relationships and schema structure
 
 Applying analytical thinking to structured datasets
